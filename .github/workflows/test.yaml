@@ -42,6 +42,10 @@ jobs:
             sqlalchemy-version: 1.*
           - python-version: "3.11"
             jupyterhub-version: 3.*
+          - python-version: "3.10"
+            jupyterhub-version: 4.*
+          - python-version: "3.11"
+            jupyterhub-version: 4.*
 
     steps:
       - uses: actions/checkout@v3
